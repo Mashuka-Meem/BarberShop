@@ -1,0 +1,253 @@
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        margin: 0px -7px;
+    }
+
+    .shop-info {
+        margin: 0px 0px;
+    }
+
+    .image-1 {
+        height: 176px;
+        margin-top: 130px;
+        margin-left: 10px;
+        margin-right: 155px;
+    }
+
+    .image-2 {
+        height: 178px;
+        margin-top: -248px;
+        margin-left: 98px;
+        margin-right: 70px;
+    }
+
+    .image-3 {
+        height: 187px;
+        margin-right: 10px;
+        margin-left: 152px;
+        margin-top: -37px;
+    }
+
+    .image-4 {
+        height: 222px;
+        margin-left: 58px;
+        margin-top: -114px;
+        margin-right: 92px;
+    }
+
+    .about .text {
+        margin-top: 50px;
+        width: 86%;
+    }
+
+    .services {
+        padding: 60px 20px 100px;
+    }
+
+    .review-content {
+        top: 18%;
+        left: 0%;
+        right: 7%;
+        transform: translate(1%, 5%);
+    }
+
+    .reviewer-i {
+        padding: 40px 37px 21px 115px;
+    }
+
+    .staffs {
+        padding: 107px 22px 90px;
+    }
+
+    .sb {
+        padding: 120px 22px 8px;
+    }
+    .footer {
+        height: auto;
+    }
+
+    .footer-container {
+        margin: auto 35px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .image-1 {
+        height: 199px;
+        margin-top: 170px;
+        margin-left: 10px;
+        margin-right: 208px;
+    }
+
+    .image-2 {
+        height: 220px;
+        margin-top: -316px;
+        margin-left: 98px;
+        margin-right: 102px;
+    }
+
+    .image-3 {
+        height: 259px;
+        margin-right: 10px;
+        margin-left: 173px;
+        margin-top: -79px;
+    }
+
+    .image-4 {
+        height: 222px;
+        margin-left: 58px;
+        margin-top: -114px;
+        margin-right: 92px;
+    }
+
+    .about .text {
+        margin-top: 75px;
+        width: 85%;
+    }
+
+    .services {
+        padding: 60px 25px 100px;
+    }
+
+    .reviewer-i {
+        padding: 30px 30px 21px 113px;
+    }
+
+    .staffs {
+        padding: 107px 22px 90px;
+    }
+
+    .sb {
+        padding: 120px 22px 8px;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .footer-container {
+        margin: auto 35px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .image-1 {
+        height: 276px;
+        margin-top: 230px;
+        margin-left: -100px;
+        margin-right: 270px;
+    }
+
+    .image-2 {
+        height: 246px;
+        margin-top: -407px;
+        margin-left: 25px;
+        margin-right: 95px;
+    }
+
+    .image-3 {
+        height: 300px;
+        margin-right: 0px;
+        margin-left: 71px;
+        margin-top: -104px;
+    }
+
+    .image-4 {
+        height: 290px;
+        margin-left: 9px;
+        margin-top: -87px;
+        margin-right: 92px;
+    }
+    .services {
+        padding: 96px 118px 100px;
+    }
+
+    .service-card img {
+        width: 106px;
+    }
+
+    .reviewer-i {
+        padding: 30px 30px 21px 113px;
+    }
+
+    .staffs {
+        padding: 107px 22px 90px;
+    }
+
+    .sb {
+        padding: 120px 22px 8px;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .footer-container {
+        margin: auto 35px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .image-1 {
+        height: 276px;
+        margin-top: 230px;
+        margin-left: 5px;
+        margin-right: 270px;
+    }
+
+    .image-2 {
+        height: 246px;
+        margin-top: -407px;
+        margin-left: 142px;
+        margin-right: 95px;
+    }
+
+    .image-3 {
+        height: 300px;
+        margin-right: 0px;
+        margin-left: 178px;
+        margin-top: -78px;
+    }
+
+    .image-4 {
+        height: 290px;
+        margin-left: 138px;
+        margin-top: -135px;
+        margin-right: 92px;
+    }
+
+    .service-card img {
+        width: 106px;
+    }
+
+    .reviewer-i {
+        padding: 12px 144px 21px 213px;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .footer-container {
+        margin: auto 35px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1280px) {
+    .service-card img {
+        width: 150px;
+    }
+
+    .reviewer-i {
+        padding: 12px 144px 21px 213px;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .footer-container {
+        margin: auto 35px;
+    }
+}

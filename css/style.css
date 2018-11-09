@@ -1,0 +1,487 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kreon', serif;
+}
+
+/*font-family: 'Maven Pro', sans-serif;
+font-family: 'Kreon', serif;*/
+
+/*Header BG*/
+
+header {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 93vh;
+    position: relative;
+}
+
+header::before {
+    content: '';
+    background: #5d3d1c4a;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.pos-f-t {
+    margin: 0px 5px 0px 0px;
+    font-size: 12px;
+}
+
+.p-4 {
+    text-align: center;
+}
+
+.nav-item {
+    color: white;
+    font-size: 14px;
+    padding: 0px 30px;
+}
+
+.navbar-brand img {
+    width: 51px;
+    margin-top: -8px;
+}
+
+.heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading p {
+    color: white;
+    letter-spacing: 14px;
+    font-size: 18px;
+}
+
+.heading h1 {
+    font-size: 46px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 6px;
+    color: #fcbe6a;
+}
+
+.cart {
+    color: white;
+}
+
+.cart img {
+    margin: 0 auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-toggler {
+    border: none;
+    color: white !important;
+    font-size: 13px;
+}
+
+.shop-info {
+    position: absolute;
+    bottom: 0;
+    margin: 16px 113px;
+}
+
+.s-info {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+.clr {
+    color: #ebb671;
+}
+
+.image-1 {
+    height: 276px;
+    margin-top: 230px;
+    margin-left: 116px;
+    margin-right: 243px;
+    position: relative;
+    z-index: 4;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-2 {
+    height: 329px;
+    margin-top: -382px;
+    margin-left: 323px;
+    margin-right: 95px;
+    position: relative;
+    z-index: 3;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-3 {
+    height: 300px;
+    margin-right: -24px;
+    margin-left: 478px;
+    margin-top: -176px;
+    position: relative;
+    z-index: 2;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-4 {
+    height: 290px;
+    margin-left: 309px;
+    margin-top: -212px;
+    margin-right: 92px;
+    position: relative;
+    z-index: 1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about .text {
+    margin-left: 35px;
+    margin-top: 236px;
+    width: 75%;
+}
+
+.sub-title {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    letter-spacing: 16px;
+    color: #e8ad5c !important;
+    font-size: 17px !important;
+}
+
+.headline {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 4px;
+    color: #424242;
+}
+
+.details {
+    font-size: 13px;
+    padding: 18px 0px 0px 0px;
+    line-height: 1.8;
+    color: #5a5a5a;
+}
+
+.button {
+    font-size: 10px;
+    color: #ebb977;
+    background-color: white;
+    letter-spacing: 1px;
+    border: 2px solid;
+    border-radius: 6px;
+    padding: 8px 15px;
+    margin: 24px 0px;
+        font-weight: 600;
+}
+
+.services {
+    padding: 96px 222px 118px;
+}
+
+.service-card {
+    border: 2px solid #f0f0f0;
+    padding: 8px;
+    margin-top: 12px;
+    text-align: center;
+    margin-right: -8px;
+}
+
+.service-card img {
+    width: 175px;
+}
+
+.service-card .headline {
+    margin: 24px;
+    letter-spacing: 3px;
+}
+
+.s-details {
+    font-size: 11px !important;
+    line-height: 1.7;
+    padding-bottom: 10px;
+    letter-spacing: 0px !important;
+}
+
+.service-card p {
+    color: #7a7a7a;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.price-amount {
+    color: #ebb671;
+    font-size: 20px;
+}
+
+.review {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
+.review::before {
+    content: '';
+    background: #a59b914a;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.rev-img {
+    border-radius: 55px;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.review img {
+    width: 55px;
+    border-radius: 55px;
+    border: 1px solid gray;
+}
+
+.review-content {
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: translate(-35%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.review-content i {
+    margin: 42px 0px;
+}
+
+.review-text {
+    padding: 0px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 2;
+}
+
+.reviewer-i {
+    padding: 12px 246px 21px 328px;
+}
+
+.reviewer {
+    text-align: left;
+    margin-left: -44px;
+    margin-top: 12px;
+}
+
+.reviewer .name {
+    margin: 0px 0px;
+    font-size: 13px;
+    font-family: 'Anton', sans-serif;
+}
+
+.reviewer p {
+    font-size: 12px;
+}
+
+.staffs {
+    padding: 107px 222px 90px;
+}
+
+.staff {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.staff .image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 278px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.des {
+    color: #5a5a5a;
+    letter-spacing: 6px;
+    margin-bottom: 0px;
+}
+
+.g-slider {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 296px;
+    position: relative;
+    margin-top: 31px;
+}
+
+.sb {
+    padding: 120px 222px 8px;
+}
+
+.styles {
+    margin: 30px 48px 0px 0px;
+}
+
+.style-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125px;
+    position: relative;
+}
+
+.booking {
+    margin: 0px 15px;
+}
+
+.booking-text {
+    margin: 8px 0px 0px 15px;
+    color: #5a5a5a;
+    font-size: 12px;
+}
+
+.booking-form {
+    margin-top: 34px;
+}
+
+.form-control {
+    height: 30px;
+    margin-bottom: -8px;
+    border: 1px solid #f0f0f0;
+    border-radius: 0px;
+}
+
+input::placeholder {
+    color: #7a7a7a !important;
+    opacity: 1;
+    font-size: 12px;
+}
+
+.product-card {
+    border: 2px solid #f0f0f0;
+    padding: 15px 15px 0px 15px;
+    margin: 12px -4px 10px 0px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.product-card img {
+    width: 164px;
+}
+
+.product-card .button {
+    background-color: #f7f7f7;
+}
+
+.p-name {
+    font-size: 13px !important;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1.5px !important;
+    margin: 22px 10px 18px 10px;
+    color: black !important;
+}
+
+.product-card p {
+    color: #7a7a7a;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.map {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 225px;
+    position: relative;
+}
+
+.footer {
+    height: 266px;
+    background-color: #303030;
+    color: #7a7a7a;
+}
+
+.footer-container {
+    margin: 0px 222px;
+    padding-top: 26px;
+}
+
+.footer-container img {
+    width: 54px;
+}
+
+.footer-container h6 {
+    margin: 17px 0px;
+    font-family: 'Anton', sans-serif;
+}
+
+.footer-text {
+    margin-top: 22px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    margin-right: 132px;
+    line-height: 1.9;
+    margin-bottom: 18px;
+}
+
+.s-icon {
+    padding: 5px 6px;
+    background-color: #e8aa52;
+    color: white;
+    font-size: 11px;
+    border-radius: 55px;
+    margin-right: 7px;
+    font-weight: bold;
+}
+
+.footer-container .sub-title {
+    padding-top: 30px;
+}
+
+.f-info p {
+    font-size: 11px;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+
+.f-info p b {
+    color: white;
+    font-weight: 400;
+}
+
+.insta-image img {
+    width: 43px;
+    margin: 1px 0px 8px -13px;
+}
+
+.copyright {
+    margin-top: 25px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.copyright b {
+    font-weight: 400;
+}
